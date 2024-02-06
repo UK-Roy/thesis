@@ -17,15 +17,15 @@ class LocalLanguageModel:
     def __init__(
         self,
         system_prompt: str,
-        answer_regex: str,
-        retry_prompt: str,
+        # answer_regex: str,
+        # retry_prompt: str,
         model_name: str = 'meta-llama/Llama-2-7b-chat-hf',
         # num_gpus: int = 8,
         logdir: Optional[str] = None,
     ) -> None:
         self.model_name = model_name
-        self.answer_regex = answer_regex
-        self.retry_prompt = retry_prompt
+        # self.answer_regex = answer_regex
+        # self.retry_prompt = retry_prompt
         self.llm = LLM(model=model_name, dtype='float16', 
                        max_num_batched_tokens=4096)
         self.logdir = logdir
@@ -34,8 +34,7 @@ class LocalLanguageModel:
             # Create directory
             os.makedirs(self.logdir, exist_ok=True)
     
-    def generate(self, messages: List[str], logging_indices: Sequence[int] = None) -> List[int]:
-        assert len(messages) == len(logging_indices)
+    def generate(self, messages: List[str]) -> List[int]:
         prompts = []
         convs = []
         for message in messages:
