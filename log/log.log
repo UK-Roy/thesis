@@ -1,0 +1,79 @@
+2024-02-04 12:52:49,914 - INFO - HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2024-02-04 12:52:50,271 - INFO - HTTP Request: GET https://api.replicate.com/v1/models/meta/llama-2-70b-chat/versions/02e509c789964a7ea8736978a43525956ef40397be9033abf9fd2badfe68c9e3 "HTTP/1.1 200 OK"
+2024-02-04 12:52:51,096 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:52:51,933 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:52:52,765 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:52:53,594 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:52:54,430 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:52:55,266 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:52:56,095 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:52:56,936 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:52:57,769 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:52:58,646 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:52:59,479 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:00,320 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:01,156 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:02,003 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:02,866 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:03,702 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:04,541 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:05,384 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:06,215 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:07,063 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:07,893 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:08,746 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:09,606 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:10,435 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:11,272 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:12,113 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:12,950 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:13,797 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:14,648 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:15,557 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:16,384 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:17,220 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:18,054 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:18,891 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:19,763 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:20,662 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:21,513 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:22,381 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:23,221 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:24,050 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:24,893 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:25,765 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:26,606 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:27,443 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:28,307 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:29,139 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:29,974 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:30,828 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:31,665 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:32,538 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:33,391 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:34,277 - INFO - HTTP Request: GET https://api.replicate.com/v1/predictions/xqwrzo3baho6bpd7jeiasp3icy "HTTP/1.1 200 OK"
+2024-02-04 12:53:34,282 - INFO -  Here's a possible reward function for the environment you described:
+```
+def get_reward(achieved_goal, desired_goal):
+   # Define the reward variables
+   d = distance(achieved_goal, desired_goal)
+   d_norm = np.abs(d - self.distance_threshold)
+   orientation = np.abs(np.angle(achieved_goal - desired_goal))
+   
+   # Calculate the reward
+   if d < self.distance_threshold and orientation < 1e-5:
+       # The agent has successfully pushed the object to the target location
+       # Give a positive reward
+       reward = 1.0
+   else:
+       # The agent has not successfully pushed the object to the target location
+       # Give a negative reward
+       reward = -1.0
+   
+   return reward
+```
+This reward function takes two inputs: `achieved_goal` and `desired_goal`. It calculates the distance between the achieved goal and the desired goal using the `distance` function from the `panda_gym.utils` module. It then calculates the normalized distance (`d_norm`) by subtracting the threshold distance from the raw distance and taking the absolute value. This is done to ensure that the reward is well-defined and continuous.
+
+The function then checks whether the agent has successfully pushed the object to the target location or not. If the distance between the achieved goal and the desired goal is less than the threshold distance and the orientation of the achieved goal with respect to the desired goal is less than a small angle (1e-5 rad), then the agent has successfully completed the task and receives a positive reward of 1.0. Otherwise, the agent receives a negative reward of -1.0.
+
+Note that this reward function only considers the distance between the achieved goal and the desired goal and does not take into account other factors such as time taken to complete the task, energy efficiency, etc. You may want to modify the reward function to include these factors as well.
