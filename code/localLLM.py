@@ -21,14 +21,14 @@ class LocalLanguageModel:
         # retry_prompt: str,
         model_name: str = 'meta-llama/Llama-2-7b-chat-hf',
         # num_gpus: int = 8,
-        logdir: Optional[str] = None,
+        # logdir: Optional[str] = None,
     ) -> None:
         self.model_name = model_name
         # self.answer_regex = answer_regex
         # self.retry_prompt = retry_prompt
         self.llm = LLM(model=model_name, dtype='float16', 
                        max_num_batched_tokens=4096)
-        self.logdir = logdir
+        # self.logdir = logdir
         self.system_prompt = system_prompt
         if self.logdir is not None:
             # Create directory
@@ -49,14 +49,5 @@ class LocalLanguageModel:
                                          temperature=0.8, top_p=0.95,
                                          stop=conv.stop_str)
         outputs = self.llm.generate(prompts, sampling_params)
-        # # Parse all the outputs
-        # cleaned_outputs = np.full(len(messages), AnnotationIdx.UNKOWN)
-        # indexes_to_retry = []
-        # prompts_to_retry = []
-        # print("Retrying prompts")
-        # for i, output in enumerate(outputs):
-        #     text_answer = output.outputs[0].text
-        #     result = re.search(self.answer_regex, text_answer)
-        #     conv = convs[i]
-        #     conv.append_message('', text_answer)
+
         return outputs
