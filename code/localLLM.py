@@ -17,37 +17,41 @@ class LocalLanguageModel:
     def __init__(
         self,
         system_prompt: str,
+        signature = str,
         # answer_regex: str,
         # retry_prompt: str,
         model_name: str = 'meta-llama/Llama-2-7b-chat-hf',
         # num_gpus: int = 8,
-        # logdir: Optional[str] = None,
+        logdir: Optional[str] = None,
     ) -> None:
         self.model_name = model_name
         # self.answer_regex = answer_regex
         # self.retry_prompt = retry_prompt
         self.llm = LLM(model=model_name, dtype='float16', 
                        max_num_batched_tokens=4096)
-        # self.logdir = logdir
-        self.system_prompt = system_prompt
+        self.system_prompt = system_prompt,
+        self.reward_sig = signature
+        self.logdir = logdir
         if self.logdir is not None:
             # Create directory
             os.makedirs(self.logdir, exist_ok=True)
     
     def generate(self, messages: List[str]) -> List[int]:
-        prompts = []
-        convs = []
-        for message in messages:
-            conv = get_conversation_template(self.model_name)
-            conv.system = self.system_prompt
-            conv.append_message(conv.roles[0], message)
-            conv.append_message(conv.roles[1], None)
-            prompt = conv.get_prompt()
-            prompts.append(prompt)
-            convs.append(conv)
+        prompts = self.system_prompt + self.reward_sig
+        # convs = []
+        
+        # for message in messages:
+        #     conv = get_conversation_template(self.model_name)
+        #     conv.system = self.system_prompt
+        #     conv.append_message(conv.roles[0], message)
+        #     conv.append_message(conv.roles[1], None)
+        #     prompt = conv.get_prompt()
+        #     prompts.append(prompt)
+        #     convs.append(conv)
+
         sampling_params = SamplingParams(top_k=50, max_tokens=4096,
                                          temperature=0.8, top_p=0.95,
-                                         stop=conv.stop_str)
+                                         )
         outputs = self.llm.generate(prompts, sampling_params)
 
         return outputs
