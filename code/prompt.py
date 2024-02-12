@@ -1,5 +1,4 @@
-task_reward_signature_string = {
-    "default": """
+task_reward_signature_string = """
     def compute_reward(object_pos: torch.Tensor, goal_pos: torch.Tensor) -> Tuple[torch.Tensor, Dict[str, torch.Tensor]]:
     ...
     return reward
@@ -96,14 +95,16 @@ class Push(Task):
         return np.array(d < self.distance_threshold, dtype=bool)"
 }}
 
-""",
-}
+"""
 
-system_prompts = {
-    "default": """You are a reward engineer trying to write reward functions to solve reinforcement learning tasks as effective as possible.
+reward_signature = """
+def compute_reward(object_pos: torch.Tensor, goal_pos: torch.Tensor) -> Tuple[torch.Tensor, Dict[str, torch.Tensor]]:
+    ...
+    return reward
+"""
+system_prompts = """You are a reward engineer trying to write reward functions to solve reinforcement learning tasks as effective as possible.
 Your goal is to write a reward function for the environment that will help the agent learn the task described in text. 
 Your reward function should use useful variables from the environment as inputs. As an example,
 the reward function signature can be: """
-}
 
 # {task_reward_signature_string}
