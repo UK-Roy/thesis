@@ -1,0 +1,8 @@
+def reward_function(object_pos: torch.Tensor, goal_pos: torch.Tensor) -> Tuple[torch.Tensor, Dict[str, torch.Tensor]]:
+    # distance between the agent and the goal
+    distance = distance(object_pos, goal_pos)
+    # reward = 1 if distance < 0.1 else 0
+    reward = 1 - (distance / 0.1)
+    return reward, {
+        "distance": distance
+    }

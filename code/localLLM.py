@@ -37,7 +37,7 @@ class LocalLanguageModel:
             os.makedirs(self.logdir, exist_ok=True)
     
     def generate(self, messages: List[str]) -> List[int]:
-        prompts = self.system_prompt + self.reward_sig
+        prompts = f"{self.system_prompt} \n {self.reward_sig}"
         # convs = []
         
         # for message in messages:
@@ -50,7 +50,7 @@ class LocalLanguageModel:
         #     convs.append(conv)
 
         sampling_params = SamplingParams(top_k=50, max_tokens=4096,
-                                         temperature=0.8, top_p=0.95,
+                                         temperature=0.9, top_p=0.95,
                                          )
         outputs = self.llm.generate(prompts, sampling_params)
 
